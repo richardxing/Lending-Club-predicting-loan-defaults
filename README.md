@@ -10,6 +10,7 @@ The data I am using is available on Kaggle.com and also provided by the official
 Exploratory data analysis has been done and several key indicators for defaulting loans, for example FICO credit scores of the applicants, have been found. 
 Credit score has, surprisingly, a much higher correlation with defaulting than interest rate does. 
 Also, natural language processing analysis on the text features (such as job titles and the titles of the loan application) has been performed, but there are not any obvious indicators found yet in the preliminary analysis. 
+
 From only a few indicators, a model with high performance (roc 0.94) is created. The plan for later study is to perform more feature engineering, 
 especially on the text data, to use a better predictor such as Gradient boost and neural networks instead of simple logistic regression.  
 Combining default prediction and interest rate, I will create an application as a final product of the project. 
