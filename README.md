@@ -14,6 +14,6 @@ Credit score has, surprisingly, a much higher correlation with defaulting than i
 Also, natural language processing analysis on the text features (such as job titles and the titles of the loan application) has been performed, but there are not any obvious indicators found yet in the preliminary analysis. 
 
 ## Model
-From only a few indicators, a model to predict defaulting is created using logistic regression. It reaches a high performance (roc 0.94). The plan for later study is to perform more feature engineering, 
+From only a few indicators, a model to predict defaulting is created using logistic regression. It reaches a high performance (ROC AUC 0.94). The plan for later study is to perform more feature engineering, 
 especially on the text data, to use a better predictor such as Gradient boost and neural networks instead of simple logistic regression.  
 Combining default prediction and interest rate, I will create an application, which can present return rate and risks to investors, therefore complementing the portfolio analysis tool on the platform.
